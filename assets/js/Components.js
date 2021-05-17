@@ -5,3 +5,4 @@ class Component {
 }
 
 exports.Components = Components;
+exports.test = 5;
