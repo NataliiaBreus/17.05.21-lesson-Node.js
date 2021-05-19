@@ -1,36 +1,28 @@
 {
-  "name": "fm-nodejs",
-  "version": "0.0.1",
-  "description": "Awesome project from fm-2021-1",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack",
-    "start": "npx webpack serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/freshcodeFT/fm-nodejs.git"
-  },
-  "keywords": [
-    "node",
-    "npm"
-  ],
-  "author": "We",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/freshcodeFT/fm-nodejs/issues"
-  },
-  "homepage": "https://github.com/freshcodeFT/fm-nodejs#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.14.3",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^5.2.4",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.37.0",
-    "webpack-cli": "^4.7.0"
+    "name": "fm-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "npx webpack",
+      "start": "npx webpack serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.14.3",
+      "@babel/preset-env": "^7.14.2",
+      "babel-loader": "^8.2.2",
+      "css-loader": "^5.2.4",
+      "html-webpack-plugin": "^5.3.1",
+      "style-loader": "^2.0.0",
+      "webpack": "^5.37.0",
+      "webpack-cli": "^4.7.0",
+      "webpack-dev-server": "^3.11.2"
+    }
   }
-}

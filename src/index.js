@@ -36,11 +36,22 @@ console.log("INDEX START");
 console.log(lorem);
 console.log(lodash.random(0, 5));
 console.log('INDEX END');
-*/
 
-const Components = require ('./Components')
+
+const Component = require('./Component');
 const lodash = require('lodash');
-require('./styles.css');
-console.log
-console.log(lodash);
+require('./styles.css'); */
+
+import lodash from 'lodash';
+import './styles.css';
+import useless, * as MyMath from './MyMath';
+import Component from './Component';
+console.log(useless);
+
+console.log(MyMath);
+
+const component = new Component();
+component.render();
+console.log(lodash.random(0,200));
+console.log('test');
 
